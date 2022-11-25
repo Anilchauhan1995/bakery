@@ -1,0 +1,20 @@
+header.header {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  background-color: var(--theme-nav-background);
+  transition: all 0.5s linear;
+  left: 0;
+  right: 0;
+}
+header.header nav .navbar-brand img {
+  width: 130px;
+}
+header.header nav .navbar-nav li a {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner_section {
+  background-color: var(--banner-background);
+  min-height: 900px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+header.header{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: var(--theme-nav-background);
+    transition: all 0.5s linear;
+    left: 0;
+    right: 0;
+    nav{
+        .navbar-brand{
+                img{
+                    width: 130px;
+                }
+            
+        }
+        .navbar-nav{
+            li{
+                a{
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+        }
+    }
+}
+
+
+
+// banner section css Start
+.banner_section{
+    background-color: var(--banner-background);
+    min-height: 900px;
+
+}
+
+// banner section css End
