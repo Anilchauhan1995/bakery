@@ -47,8 +47,8 @@ header.header nav .navbar-nav li a {
 }
 .banner_section .bottom_img::after {
   content: "";
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
   background-color: #fff;
   position: absolute;
   z-index: -1;
@@ -68,6 +68,17 @@ header.header nav .navbar-nav li a {
   height: 20px;
 }
 
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_img_wrapper .user_img {
+  width: 100px;
+}
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_img_wrapper .user_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
 .art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images {
   display: flex;
   justify-content: end;
@@ -77,11 +88,31 @@ header.header nav .navbar-nav li a {
 .art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images .art_of_image {
   width: 200px;
   height: 200px;
-  margin-bottom: 1rem;
+  row-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 .art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images .art_of_image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  flex: 1;
+  aspect-ratio: 1/1;
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images .art_of_image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  border: 5px solid #fff;
+  width: 180px;
+  height: 180px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */

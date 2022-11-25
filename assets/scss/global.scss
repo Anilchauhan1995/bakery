@@ -5,6 +5,7 @@
     --white-color:#fff;
     --theme-nav-background:#56534c;
     --theme-link-color:#7b7b7b;
+    --theme-strocke-color:#d7d5ca;
     --light-gray-color:#f3f3f3;
     --theme-scriptina-font:'scriptina';
     --theme-Proxima-font:'Proxima';
@@ -62,6 +63,9 @@ img{
 }
 .column-gap_1_5{
     column-gap: 1.5rem;
+}
+.column_gap_3{
+    column-gap: 3rem;
 }
 .my-100{
     margin-top: 100px;

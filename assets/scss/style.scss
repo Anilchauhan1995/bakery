@@ -65,8 +65,8 @@ header.header{
         align-items: center;
         &::after{
             content: "";
-            width: 90px;
-            height: 90px;
+            width: 75px;
+            height: 75px;
             background-color: #fff;
             position: absolute;
             z-index: -1;
@@ -98,6 +98,25 @@ header.header{
 // art_of_cakes_section Start
 
 .art_of_cakes_section{
+    .arts_of_cakes_testimonial{
+        .testimonial_wrapper{
+            .testimonial_img_wrapper{
+                .user_img{
+                    width: 100px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 100%;
+                        aspect-ratio: 1/1;
+                    }
+                }
+            }
+            
+        }
+
+
+    }
     .art_of_cakes_wrapper_2{
         .art_of_cakes_images{
                 display: flex;
@@ -106,11 +125,33 @@ header.header{
             .art_of_image{
                 width: 200px;
                 height: 200px;
-                margin-bottom: 1rem;
+                row-gap: 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
                 img{
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+                    flex: 1;
+                    aspect-ratio: 1/1;
+                
+                }
+                &:after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: transparent;
+                    border: 5px solid #fff;
+                    width: 180px;
+                    height: 180px;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+
                 }
             }
         }
@@ -119,3 +160,13 @@ header.header{
 
 
 // art_of_cakes_section End
+
+
+
+// section.tasty_pancakes_section Start
+.section.tasty_pancakes_section{
+    .tasty_pancakes_wrapper{
+        
+    }
+}
+// section.tasty_pancakes_section End
