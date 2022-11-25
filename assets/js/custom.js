@@ -1,6 +1,6 @@
 
 $(".slick-slider").slick({
-  slidesToShow: 1,
+  slidesToShow: 3,
   infinite:true,
   arrows: true,
   slidesToScroll: 1,
@@ -9,17 +9,3 @@ $(".slick-slider").slick({
     // dots: false, Boolean
    // arrows: false, Boolean
  });
-
- // Fancybox Config
-$('[data-fancybox="images"]').fancybox({
-  buttons: [
-    "slideShow",
-    "thumbs",
-    "zoom",
-    "fullScreen",
-    "share",
-    "close"
-  ],
-  loop: false,
-  protect: true
-});

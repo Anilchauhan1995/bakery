@@ -4,8 +4,11 @@
   --white-color:#fff;
   --theme-nav-background:rgba(86, 83, 76, 0.529);
   --theme-link-color:#7b7b7b;
+  --theme-text-color:#56534c;
   --theme-strocke-color:#d7d5ca;
   --light-gray-color:#f3f3f3;
+  --theme-subheading-color:#a47d5e;
+  --theme-icon-color:#d8bba3;
   --theme-scriptina-font:"scriptina";
   --theme-Proxima-font:"Proxima";
   --heading-font-one:"Alegreya", serif;
@@ -33,6 +36,33 @@ body {
   padding: 0;
   font-family: var(--theme-Proxima-font);
   font-size: 14px;
+}
+
+.section_heading h1 {
+  font-size: 2.5625rem;
+  font-family: var(--heading-font-one);
+  font-weight: bold;
+  color: var(--theme-text-color);
+}
+
+h2, h3, h4, h5, h5 {
+  font-family: var(--heading-font-one);
+  font-weight: bold;
+  color: var(--theme-text-color);
+}
+
+.section_header_content p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--theme-subheading-color);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.section_content p {
+  font-family: var(--theme-Proxima-font);
+  letter-spacing: 0.1rem;
+  color: var(--theme-text-color);
 }
 
 ul {
@@ -87,8 +117,8 @@ img {
   margin-bottom: 100px;
 }
 
-.p_all_4 {
-  padding: 4rem;
+.py_4 {
+  padding: 4rem 4rem 0;
 }
 
 .flex-1 {
