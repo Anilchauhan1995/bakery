@@ -84,7 +84,7 @@ header.header{
         width: 100%;
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: -20px;
         height: 20px;
     }
     
@@ -92,3 +92,20 @@ header.header{
 }
 
 // banner section css End
+
+
+
+// art_of_cakes_section Start
+
+.art_of_cakes_section{
+    .art_of_cakes_wrapper_2{
+        .art_of_cakes_images{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+// art_of_cakes_section End

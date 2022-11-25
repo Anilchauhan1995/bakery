@@ -64,6 +64,10 @@ header.header nav .navbar-nav li a {
   width: 100%;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -20px;
   height: 20px;
+}
+
+.art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
