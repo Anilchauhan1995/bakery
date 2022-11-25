@@ -7,17 +7,34 @@ header.header {
   left: 0;
   right: 0;
 }
+header.header nav .navbar-brand {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
 header.header nav .navbar-brand span {
   font-family: var(--theme-scriptina-font);
   font-size: 1.875rem;
+  color: var(--white-color);
+}
+header.header nav .navbar-nav {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+header.header nav .navbar-nav li {
+  position: relative;
 }
 header.header nav .navbar-nav li a {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-one);
+  color: var(--white-color) !important;
+  text-transform: uppercase;
+}
+header.header nav .social_icon ul.social_icon_list li a {
+  color: var(--white-color);
 }
 
 .banner_section {
   background-image: url(../../assets/images/Ebene-1.png);
-  min-height: 900px;
+  min-height: 742px;
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -25,10 +42,16 @@ header.header nav .navbar-nav li a {
 .banner_section .banner_wrapper .banner_header h1 {
   font-size: 5.75rem;
   font-family: var(--heading-font-two);
+  color: var(--white-color);
 }
 .banner_section .banner_wrapper .banner_btn a.btn.btn-default.theme_btn {
   background-color: rgb(86, 83, 76);
   opacity: 53%;
+}
+.banner_section .banner_wrapper .banner_text p {
+  font-size: 1.5rem;
+  text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
+  color: var(--white-color);
 }
 .banner_section .bottom_img {
   content: "";
@@ -66,6 +89,20 @@ header.header nav .navbar-nav li a {
   right: 0;
   bottom: -20px;
   height: 20px;
+}
+.banner_section::before {
+  content: "";
+  position: absolute;
+  background-image: radial-gradient(rgb(86, 79, 76) 32%, rgb(86, 83, 76) 32%, transparent);
+  left: 50%;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  width: 742px;
+  opacity: 34%;
+  height: 742px;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
 }
 
 .art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_img_wrapper .user_img {
@@ -115,4 +152,17 @@ header.header nav .navbar-nav li a {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+section.tasty_pancakes_section {
+  background-image: url(../../assets/images/Ebene-11.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.breakfast_open_section {
+  background-image: url("../../assets/images/img6.jpg");
 }/*# sourceMappingURL=style.css.map */
