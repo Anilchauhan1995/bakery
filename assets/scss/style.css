@@ -7,14 +7,63 @@ header.header {
   left: 0;
   right: 0;
 }
-header.header nav .navbar-brand img {
-  width: 130px;
+header.header nav .navbar-brand span {
+  font-family: var(--theme-scriptina-font);
+  font-size: 1.875rem;
 }
 header.header nav .navbar-nav li a {
   font-family: "Poppins", sans-serif;
 }
 
 .banner_section {
-  background-color: var(--banner-background);
+  background-image: url(../../assets/images/Ebene-1.png);
   min-height: 900px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+.banner_section .banner_wrapper .banner_header h1 {
+  font-size: 5.75rem;
+  font-family: var(--heading-font-two);
+}
+.banner_section .banner_wrapper .banner_btn a.btn.btn-default.theme_btn {
+  background-color: rgb(86, 83, 76);
+  opacity: 53%;
+}
+.banner_section .bottom_img {
+  content: "";
+  position: absolute;
+  background-image: url(../../assets/images/icon1.png);
+  left: 50%;
+  bottom: -12%;
+  transform: translate(-50%, -50%);
+  width: 106px;
+  height: 106px;
+  z-index: 99;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_section .bottom_img::after {
+  content: "";
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.87);
+  border-radius: 100%;
+}
+.banner_section::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.87);
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */

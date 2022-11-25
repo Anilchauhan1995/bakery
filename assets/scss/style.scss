@@ -8,8 +8,9 @@ header.header{
     right: 0;
     nav{
         .navbar-brand{
-                img{
-                    width: 130px;
+                span{
+                    font-family: var(--theme-scriptina-font);
+                    font-size: 1.875rem;
                 }
             
         }
@@ -27,8 +28,66 @@ header.header{
 
 // banner section css Start
 .banner_section{
-    background-color: var(--banner-background);
+    background-image:url(../../assets/images/Ebene-1.png);
     min-height: 900px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    .banner_wrapper{
+        .banner_header{
+            h1{
+                font-size: 5.75rem;
+                font-family: var(--heading-font-two);
+            }
+        }
+        .banner_btn{
+            a.btn.btn-default.theme_btn {
+                background-color: rgba(86,83,76,1);
+                opacity: 53%;
+            }
+        }
+    }
+
+
+    .bottom_img{
+        content: "";
+        position: absolute;
+        background-image: url(../../assets/images/icon1.png);
+        left: 50%;
+        bottom: -12%;
+        transform: translate(-50% , -50%);
+        width: 106px;
+        height: 106px;
+        z-index: 99;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::after{
+            content: "";
+            width: 90px;
+            height: 90px;
+            background-color: #fff;
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0px 8px 9px 0px rgb(0 0 0 / 87%);
+            border-radius: 100%;
+        }
+       
+    }
+    &::after{
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        z-index: -1;
+        box-shadow: 0px 8px 9px 0px rgb(0 0 0 / 87%);
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 20px;
+    }
+    
 
 }
 
