@@ -8,6 +8,8 @@
   --theme-strocke-color:#d7d5ca;
   --light-gray-color:#f3f3f3;
   --theme-subheading-color:#a47d5e;
+  --theme-subheading--alt-color:#dfc691;
+  --theme-text-gray-color:#979285;
   --theme-icon-color:#d8bba3;
   --theme-scriptina-font:"scriptina";
   --theme-Proxima-font:"Proxima";
@@ -49,6 +51,10 @@ h2, h3, h4, h5, h5 {
   font-family: var(--heading-font-one);
   font-weight: bold;
   color: var(--theme-text-color);
+}
+
+.fz-18 {
+  font-size: 18px;
 }
 
 .section_header_content p {

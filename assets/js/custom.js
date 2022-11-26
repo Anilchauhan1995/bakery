@@ -1,6 +1,6 @@
 
 $(".slick-slider").slick({
-  slidesToShow: 3,
+  slidesToShow: 4,
   infinite:true,
   arrows: true,
   slidesToScroll: 1,

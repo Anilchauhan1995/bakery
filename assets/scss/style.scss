@@ -264,8 +264,65 @@ section.tasty_pancakes_section {
             display: flex;
             flex: 1;
             height: 100%;
+            background-image: -webkit-linear-gradient( 45deg, rgb(215,215,215) 0%, rgb(255,255,255) 100%);
+            box-shadow: 3px 5.196px 13px 0px rgb(0 0 0 / 47%);
         }
         .wrapper_content{
+            position: relative;
+            .ready_in {
+                position: absolute;
+                top: 0%;
+                right: -35%;
+                transform: translate(-50%, -50%);
+                background-color: #fff;
+                width: 200px;
+                height: 200px;
+                display: flex;
+                box-shadow: 0 25px 54px rgb(105 80 58 / 45%);
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                font-weight: bold;
+                background-image: url("../../assets/images/Vektor-Smartobjekt7.png");
+                background-position: center;
+                background-size: cover;
+                &::after {
+                    content: "";
+                    opacity: 60%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    z-index: 1;
+                    background-color: #fff;
+                }
+                 h3{
+                    color: var(--theme-subheading-color);
+                    position: relative;
+                    z-index: 9;
+                 }
+                 .forty_mins{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    color: var(--theme-subheading-color);
+                    position: relative;
+                    z-index: 9;
+                    .forty{
+                        font-size: 5.75rem;
+                        font-family: var(--heading-font-one);
+                        line-height: 1;
+                        color: var( --theme-subheading--alt-color);
+                        
+                    }
+                    .mins{
+                        font-size: 18px;
+                        font-family: var(--heading-font-one);
+                        color: var( --theme-text-gray-color);
+                    }
+                 }
+            }
             &::after{
                 content:"";
                 background-image: url("../../assets/images/Vektor-Smartobjekt1.png");
@@ -276,7 +333,7 @@ section.tasty_pancakes_section {
                         .slick-track{
                             .element{
                                 
-                                height: 120px;
+                                height: 85px;
                                 margin: 10px;
                                 img{
                                     width: 100%;

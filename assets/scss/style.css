@@ -207,13 +207,71 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_image {
   display: flex;
   flex: 1;
   height: 100%;
+  background-image: -webkit-linear-gradient(45deg, rgb(215, 215, 215) 0%, rgb(255, 255, 255) 100%);
+  box-shadow: 3px 5.196px 13px 0px rgba(0, 0, 0, 0.47);
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content {
+  position: relative;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in {
+  position: absolute;
+  top: 0%;
+  right: -35%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  box-shadow: 0 25px 54px rgba(105, 80, 58, 0.45);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  background-image: url("../../assets/images/Vektor-Smartobjekt7.png");
+  background-position: center;
+  background-size: cover;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in::after {
+  content: "";
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in h3 {
+  color: var(--theme-subheading-color);
+  position: relative;
+  z-index: 9;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in .forty_mins {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--theme-subheading-color);
+  position: relative;
+  z-index: 9;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in .forty_mins .forty {
+  font-size: 5.75rem;
+  font-family: var(--heading-font-one);
+  line-height: 1;
+  color: var(--theme-subheading--alt-color);
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in .forty_mins .mins {
+  font-size: 18px;
+  font-family: var(--heading-font-one);
+  color: var(--theme-text-gray-color);
 }
 section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content::after {
   content: "";
   background-image: url("../../assets/images/Vektor-Smartobjekt1.png");
 }
 section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_slick_slider .slick-slider .slick-list .slick-track .element {
-  height: 120px;
+  height: 85px;
   margin: 10px;
 }
 section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_slick_slider .slick-slider .slick-list .slick-track .element img {
