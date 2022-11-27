@@ -8,10 +8,12 @@
     --theme-text-color:#56534c;
     --theme-strocke-color:#d7d5ca;
     --light-gray-color:#f3f3f3;
+    --light--alt-gray-color:#f3f1e9;
     --theme-subheading-color:#a47d5e;
     --theme-subheading--alt-color:#dfc691;
     --theme-text-gray-color:#979285;
     --theme-icon-color:#d8bba3;
+    --theme-border-color:#9e9c93;
     --theme-scriptina-font:'scriptina';
     --theme-Proxima-font:'Proxima';
     --heading-font-one:'Alegreya', serif;
@@ -57,7 +59,7 @@ h2,h3,h4,h5,h5{
     
 }
 .fz-18{
-    font-size: 18px;
+    font-size: 18px !important;
 }
 .section_header_content {
         p{
