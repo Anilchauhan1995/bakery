@@ -12,6 +12,7 @@
     --theme-subheading-color:#a47d5e;
     --theme-subheading--alt-color:#dfc691;
     --theme-text-gray-color:#979285;
+    --theme-text-alt-gray-color:#c2beba;
     --theme-icon-color:#d8bba3;
     --theme-border-color:#9e9c93;
     --theme-scriptina-font:'scriptina';
@@ -37,7 +38,9 @@
 .theme-color{
     background-color: var(--theme-color);
 }
-
+.text_alt_gray_color{
+    color: var(--theme-text-alt-gray-color);
+}
 
 body{
     margin: 0;
@@ -58,8 +61,14 @@ h2,h3,h4,h5,h5{
     color: var(--theme-text-color);
     
 }
+.fz-16{
+    font-size: 1rem !important;
+}
 .fz-18{
-    font-size: 18px !important;
+    font-size: 1.125rem !important;
+}
+.fz-30{
+    font-size: 1.875rem;
 }
 .section_header_content {
         p{
@@ -69,6 +78,10 @@ h2,h3,h4,h5,h5{
         font-weight: bold;
         letter-spacing: 0.1rem
     }
+    .text_alt_gray_color{
+        color: var(--theme-text-alt-gray-color);
+    }
+    
 }
 .section_content {
     p{

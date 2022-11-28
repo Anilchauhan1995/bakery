@@ -295,12 +295,34 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   font-size: 3.75rem;
 }
 .breakfast_open_section .banner_wrapper .section_heading .price {
-  font-size: 3.75rem;
+  position: relative;
+}
+.breakfast_open_section .banner_wrapper .section_heading .price p {
+  font-size: 2.25rem;
   color: var(--theme-subheading--alt-color);
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img {
+  position: relative;
+  display: inline-flex;
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img span {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  position: relative;
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img span.left_img img, .breakfast_open_section .banner_wrapper .section_heading .before_after_img span.right_img img {
+  width: 100%;
+  filter: invert(1);
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img span.left_img img {
+  transform: rotateY(180deg);
+  margin-left: 0.5rem;
 }
 .breakfast_open_section .card_wrapper {
   background-color: var(--light--alt-gray-color);
-  max-width: 370px;
+  max-width: 425px;
   text-align: center;
   padding: 2rem 1rem;
 }
