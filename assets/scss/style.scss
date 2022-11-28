@@ -412,31 +412,37 @@ section.tasty_pancakes_section {
         padding: 2rem 1rem;
         .icon_img{
             position: relative;
-                .icons{
-                width: 50px;
-                height: 50px;
+            .icon_img_img{
+                width: 70px;
+                height: 70px;
                 display: flex;
                 justify-content: center;
                 margin: 0 auto;
-                position: relative;
                 z-index: 2;
-                img{
-                    width: 100%;
-                    position: relative;
-                    z-index: 2;
-                }
-            }
-            .line{
+                border: 1px solid var( --theme-text-alt-gray-color);
+                padding: 0.8rem;
+                border-radius: 100%;
                 &::after{
                     content: "";
-                    position: absolute;
-                    background-color: var(--theme-border-color);
-                    left: 0;
-                    right: 0;
-                    height: 1px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    z-index: 1;
+                }
+                    img{
+                        width: 100%;
+                        position: relative;
+                        z-index: 2;
+                    }
+            
+                .line{
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        background-color: var(--theme-border-color);
+                        left: 0;
+                        right: 0;
+                        height: 1px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        z-index: 1;
+                    }
                 }
             }
         }

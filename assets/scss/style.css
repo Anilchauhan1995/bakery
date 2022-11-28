@@ -329,21 +329,26 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
 .breakfast_open_section .card_wrapper .icon_img {
   position: relative;
 }
-.breakfast_open_section .card_wrapper .icon_img .icons {
-  width: 50px;
-  height: 50px;
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img {
+  width: 70px;
+  height: 70px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  position: relative;
   z-index: 2;
+  border: 1px solid var(--theme-text-alt-gray-color);
+  padding: 0.8rem;
+  border-radius: 100%;
 }
-.breakfast_open_section .card_wrapper .icon_img .icons img {
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img::after {
+  content: "";
+}
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img img {
   width: 100%;
   position: relative;
   z-index: 2;
 }
-.breakfast_open_section .card_wrapper .icon_img .line::after {
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img .line::after {
   content: "";
   position: absolute;
   background-color: var(--theme-border-color);
