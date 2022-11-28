@@ -1,0 +1,354 @@
+header.header {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  background-color: var(--theme-nav-background);
+  transition: all 0.5s linear;
+  left: 0;
+  right: 0;
+}
+header.header nav .navbar-brand {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+header.header nav .navbar-brand span {
+  font-family: var(--theme-scriptina-font);
+  font-size: 1.875rem;
+  color: var(--white-color);
+}
+header.header nav .navbar-nav {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+header.header nav .navbar-nav li {
+  position: relative;
+}
+header.header nav .navbar-nav li a {
+  font-family: var(--heading-font-one);
+  color: var(--white-color) !important;
+  text-transform: uppercase;
+}
+header.header nav .social_icon ul.social_icon_list li a {
+  color: var(--white-color);
+}
+
+.banner_section {
+  background-image: url(../../assets/images/Ebene-1.png);
+  min-height: 742px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+.banner_section .banner_wrapper .banner_header h1 {
+  font-size: 5.75rem;
+  font-family: var(--heading-font-two);
+  color: var(--white-color);
+}
+.banner_section .banner_wrapper .banner_btn a.btn.btn-default.theme_btn {
+  background-color: rgb(86, 83, 76);
+  opacity: 53%;
+}
+.banner_section .banner_wrapper .banner_text p {
+  font-size: 1.5rem;
+  text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
+  color: var(--white-color);
+}
+.banner_section .bottom_img {
+  content: "";
+  position: absolute;
+  background-image: url(../../assets/images/icon1.png);
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+  width: 106px;
+  height: 106px;
+  z-index: 99;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_section .bottom_img::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.87);
+  border-radius: 100%;
+}
+.banner_section::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.87);
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  height: 20px;
+}
+.banner_section::before {
+  content: "";
+  position: absolute;
+  background-image: radial-gradient(rgb(86, 79, 76) 32%, rgb(86, 83, 76) 32%, transparent);
+  left: 50%;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  width: 742px;
+  opacity: 34%;
+  height: 742px;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+}
+
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_img_wrapper .user_img {
+  width: 100px;
+}
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_img_wrapper .user_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_wrapper_content p {
+  font-family: var(--theme-scriptina-font);
+  font-size: 1.5rem;
+  color: var(--theme-subheading-color);
+  position: relative;
+}
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_wrapper_content p::before, .art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_wrapper_content p::after {
+  width: 33px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_wrapper_content p::before {
+  content: "";
+  background-image: url("../../assets/images/comma1.png");
+  left: 0;
+}
+.art_of_cakes_section .arts_of_cakes_testimonial .testimonial_wrapper .testimonial_wrapper_content p::after {
+  content: "";
+  background-image: url("../../assets/images/comma2.png");
+  right: 0;
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .img_ocer_text {
+  text-align: center;
+  position: absolute;
+  left: 60%;
+  top: 40%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .img_ocer_text p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--theme-subheading-color);
+  font-size: 1.475rem;
+  font-family: "Alegreya";
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images {
+  display: flex;
+  justify-content: end;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images .art_of_image {
+  width: 200px;
+  height: 200px;
+  row-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images .art_of_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex: 1;
+  aspect-ratio: 1/1;
+}
+.art_of_cakes_section .art_of_cakes_wrapper_2 .art_of_cakes_images .art_of_image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  border: 5px solid #fff;
+  width: 180px;
+  height: 180px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section.tasty_pancakes_section {
+  background-image: url(../../assets/images/Ebene-11.jpg);
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 660px;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_image {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  background-image: -webkit-linear-gradient(45deg, rgb(215, 215, 215) 0%, rgb(255, 255, 255) 100%);
+  box-shadow: 3px 5.196px 13px 0px rgba(0, 0, 0, 0.47);
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content {
+  position: relative;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in {
+  position: absolute;
+  top: 0%;
+  right: -35%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  box-shadow: 0 25px 54px rgba(105, 80, 58, 0.45);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  background-image: url("../../assets/images/Vektor-Smartobjekt7.png");
+  background-position: center;
+  background-size: cover;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in::after {
+  content: "";
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in h3 {
+  color: var(--theme-subheading-color);
+  position: relative;
+  z-index: 9;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in .forty_mins {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--theme-subheading-color);
+  position: relative;
+  z-index: 9;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in .forty_mins .forty {
+  font-size: 5.75rem;
+  font-family: var(--heading-font-one);
+  line-height: 1;
+  color: var(--theme-subheading--alt-color);
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .ready_in .forty_mins .mins {
+  font-size: 18px;
+  font-family: var(--heading-font-one);
+  color: var(--theme-text-gray-color);
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content::after {
+  content: "";
+  background-image: url("../../assets/images/Vektor-Smartobjekt1.png");
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_slick_slider .slick-slider .slick-list .slick-track .element {
+  height: 85px;
+  margin: 10px;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_slick_slider .slick-slider .slick-list .slick-track .element img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+}
+section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_slick_slider .slick-slider .slick-next:before, section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_slick_slider .slick-slider .slick-prev:before {
+  color: var(--theme-icon-color);
+}
+
+.breakfast_open_section {
+  background-image: url("../../assets/images/img6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.breakfast_open_section .banner_wrapper .section_heading h1.fz-60 {
+  font-size: 3.75rem;
+}
+.breakfast_open_section .banner_wrapper .section_heading .price {
+  font-size: 3.75rem;
+  color: var(--theme-subheading--alt-color);
+}
+.breakfast_open_section .card_wrapper {
+  background-color: var(--light--alt-gray-color);
+  max-width: 370px;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.breakfast_open_section .card_wrapper .icon_img {
+  position: relative;
+}
+.breakfast_open_section .card_wrapper .icon_img .icons {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.breakfast_open_section .card_wrapper .icon_img .icons img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.breakfast_open_section .card_wrapper .icon_img .line::after {
+  content: "";
+  position: absolute;
+  background-color: var(--theme-border-color);
+  left: 0;
+  right: 0;
+  height: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.breakfast_open_section .card_wrapper .escape h1 {
+  font-size: 2.75rem;
+  font-family: var(--heading-font-one);
+  font-weight: bold;
+}
+.breakfast_open_section .card_wrapper .escape_content p {
+  font: 14px;
+  line-height: 30px;
+  color: var(--theme-text-color);
+}
+.breakfast_open_section .card_wrapper .read_button a.theme_btn {
+  font-size: 18px;
+  color: var(--theme-subheading-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--heading-font-one);
+  border: 1px solid var(--theme-border-color);
+  padding: 10px 75px;
+  border-radius: 0;
+}/*# sourceMappingURL=style.css.map */

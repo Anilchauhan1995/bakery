@@ -1,0 +1,143 @@
+:root {
+  --black-color:#000;
+  --banner-background:#9e9c93;
+  --white-color:#fff;
+  --theme-nav-background:rgba(86, 83, 76, 0.529);
+  --theme-link-color:#7b7b7b;
+  --theme-text-color:#56534c;
+  --theme-strocke-color:#d7d5ca;
+  --light-gray-color:#f3f3f3;
+  --light--alt-gray-color:#f3f1e9;
+  --theme-subheading-color:#a47d5e;
+  --theme-subheading--alt-color:#dfc691;
+  --theme-text-gray-color:#979285;
+  --theme-icon-color:#d8bba3;
+  --theme-border-color:#9e9c93;
+  --theme-scriptina-font:"scriptina";
+  --theme-Proxima-font:"Proxima";
+  --heading-font-one:"Alegreya", serif;
+  --heading-font-two:"Playfair Display", serif;
+}
+
+@font-face {
+  font-family: scriptina;
+  src: url(../font/scriptina.ttf);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(../font/Proxima\ Nova\ Font.otf);
+}
+.bg_light_gray {
+  background-color: var(--light-gray-color);
+}
+
+.theme-color {
+  background-color: var(--theme-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--theme-Proxima-font);
+  font-size: 14px;
+}
+
+.section_heading h1 {
+  font-size: 2.5625rem;
+  font-family: var(--heading-font-one);
+  font-weight: bold;
+  color: var(--theme-text-color);
+}
+
+h2, h3, h4, h5, h5 {
+  font-family: var(--heading-font-one);
+  font-weight: bold;
+  color: var(--theme-text-color);
+}
+
+.fz-18 {
+  font-size: 18px !important;
+}
+
+.section_header_content p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--theme-subheading-color);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.section_content p {
+  font-family: var(--theme-Proxima-font);
+  letter-spacing: 0.1rem;
+  color: var(--theme-text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--heading-font-one);
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.colunmn-gap-1 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.row-gap-1_5 {
+  row-gap: 1.5rem;
+}
+
+.column-gap_1_5 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.column_gap_3 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.py_4 {
+  padding: 4rem 4rem 0;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.theme_button {
+  font-family: var(--heading-font-one);
+  border-radius: 0;
+  color: var(--white-color) !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+}/*# sourceMappingURL=global.css.map */
