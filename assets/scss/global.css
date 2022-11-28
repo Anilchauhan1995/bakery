@@ -77,6 +77,10 @@ h1 {
   font-size: 1.875rem;
 }
 
+.fz-60 {
+  font-size: 3.75rem;
+}
+
 .section_header_content p {
   font-size: 14px;
   text-transform: uppercase;
@@ -161,4 +165,15 @@ img {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.2rem;
+}
+
+.full_recipe_btn {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-family: var(--heading-font-one);
+  color: var(--theme-subheading--alt-color);
+  font-weight: bold;
+  border: 1px dashed;
+  background-color: var(--white-color);
+  padding: 1rem 2.0245rem;
 }/*# sourceMappingURL=global.css.map */

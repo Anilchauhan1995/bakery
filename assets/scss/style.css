@@ -427,6 +427,33 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   font-size: 1.875rem;
   color: var(--theme-subheading-color);
 }
-.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .fullsanswitch_image img {
-  width: 100%;
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container {
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.54);
+  position: relative;
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .fullsanswitch_image .full_image {
+  background-image: url("../../assets/images/Ebene-111.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .fullsanswitch_image .full_image .time_wrapper .time_header {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+  margin-left: auto;
+  opacity: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .recipe_btn {
+  display: inline-block;
+  position: absolute;
+  left: -5%;
+  bottom: -5%;
+  transform: translate(-5%, -5%);
 }/*# sourceMappingURL=style.css.map */
