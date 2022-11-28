@@ -570,3 +570,18 @@ section.tasty_pancakes_section {
 }
 // Jibarito_sandwich_section End
 
+
+// footer section css Start
+footer{
+    background-color: var(--light--alt-gray-color);
+
+    nav.navbar{
+        .footer-logo{
+            font-family: var(--theme-scriptina-font);
+            font-size: 1.875rem;
+            background-color: var(--light--alt-gray-color);
+        }
+    }
+}
+// footer section css End
+

@@ -456,4 +456,13 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   left: -5%;
   bottom: -5%;
   transform: translate(-5%, -5%);
+}
+
+footer {
+  background-color: var(--light--alt-gray-color);
+}
+footer nav.navbar .footer-logo {
+  font-family: var(--theme-scriptina-font);
+  font-size: 1.875rem;
+  background-color: var(--light--alt-gray-color);
 }/*# sourceMappingURL=style.css.map */

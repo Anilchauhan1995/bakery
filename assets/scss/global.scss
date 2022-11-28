@@ -163,3 +163,9 @@ img{
     background-color: var(--white-color);
     padding: 1rem 2.0245rem;
 }
+
+
+.border-top ,
+.border-bottom{
+    border-color: var( --theme-text-alt-gray-color) !important;
+}
