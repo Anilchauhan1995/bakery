@@ -580,6 +580,13 @@ footer{
             font-family: var(--theme-scriptina-font);
             font-size: 1.875rem;
             background-color: var(--light--alt-gray-color);
+            text-transform: capitalize;
+        }
+        li{
+            a{
+                font-family: var(--heading-font-one);
+                text-transform: uppercase;
+            }
         }
     }
 }
