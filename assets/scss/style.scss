@@ -581,6 +581,23 @@ footer{
             font-size: 1.875rem;
             background-color: var(--light--alt-gray-color);
             text-transform: capitalize;
+            position: relative;
+            line-height: 1;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                left: -2rem;
+                width: calc(100% + 4rem);
+                top: -2rem;
+                height: calc(100% + 4rem);
+                background-color: var(--light--alt-gray-color);
+                
+            }
+            span.logo_text {
+                position: relative;
+                z-index: 2;
+            }
         }
         li{
             a{

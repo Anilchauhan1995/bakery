@@ -466,6 +466,21 @@ footer nav.navbar .footer-logo {
   font-size: 1.875rem;
   background-color: var(--light--alt-gray-color);
   text-transform: capitalize;
+  position: relative;
+  line-height: 1;
+}
+footer nav.navbar .footer-logo::after {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  width: calc(100% + 4rem);
+  top: -2rem;
+  height: calc(100% + 4rem);
+  background-color: var(--light--alt-gray-color);
+}
+footer nav.navbar .footer-logo span.logo_text {
+  position: relative;
+  z-index: 2;
 }
 footer nav.navbar li a {
   font-family: var(--heading-font-one);
