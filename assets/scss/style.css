@@ -378,4 +378,55 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   border: 1px solid var(--theme-border-color);
   padding: 10px 75px;
   border-radius: 0;
+}
+
+.Jibarito_sandwich_section {
+  background-color: var(--light--alt-gray-color);
+}
+.Jibarito_sandwich_section .before_img {
+  position: relative;
+}
+.Jibarito_sandwich_section .before_img::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/Vektor-Smartobjekt5.gif");
+  width: 700px;
+  min-height: 335px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 17%;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper .best_wrapper_img {
+  width: 100px;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper .best_wrapper_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper .section_heading h1 {
+  font-size: 1.875rem;
+  color: var(--theme-subheading-color);
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .fullsanswitch_image img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

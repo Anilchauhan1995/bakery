@@ -480,3 +480,66 @@ section.tasty_pancakes_section {
 
 
 // Breakfast_open_section End
+
+
+// Jibarito_sandwich_section Start
+.Jibarito_sandwich_section{
+    background-color: var( --light--alt-gray-color);
+    .before_img{
+        position: relative;
+
+        &::after{
+            content:"";
+            position: absolute;
+            background-image: url("../../assets/images/Vektor-Smartobjekt5.gif");
+            width: 700px;
+            min-height: 335px;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 17%;
+        }
+
+    }
+    .best_sandwich_wrapper_container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        .best_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 1rem;
+        
+            .best_wrapper_img{
+                width: 100px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100%;
+                    aspect-ratio: 1/1;
+                    object-fit: cover;
+                }
+            }
+            .section_heading{
+                h1{
+                    font-size: 1.875rem;
+                    color: var(--theme-subheading-color);
+                }
+            }
+        }
+    }
+    .Jibarito_sandwich_wrapper_container{
+        .fullsanswitch_image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+// Jibarito_sandwich_section End
+
