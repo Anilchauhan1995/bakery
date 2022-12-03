@@ -295,18 +295,50 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   font-size: 3.75rem;
 }
 .breakfast_open_section .banner_wrapper .section_heading .price {
+<<<<<<< HEAD
   font-size: 3.75rem;
   color: var(--theme-subheading--alt-color);
 }
 .breakfast_open_section .card_wrapper {
   background-color: var(--light--alt-gray-color);
   max-width: 370px;
+=======
+  position: relative;
+}
+.breakfast_open_section .banner_wrapper .section_heading .price p {
+  font-size: 2.25rem;
+  color: var(--theme-subheading--alt-color);
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img {
+  position: relative;
+  display: inline-flex;
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img span {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  position: relative;
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img span.left_img img, .breakfast_open_section .banner_wrapper .section_heading .before_after_img span.right_img img {
+  width: 100%;
+  filter: invert(1);
+}
+.breakfast_open_section .banner_wrapper .section_heading .before_after_img span.left_img img {
+  transform: rotateY(180deg);
+  margin-left: 0.5rem;
+}
+.breakfast_open_section .card_wrapper {
+  background-color: var(--light--alt-gray-color);
+  max-width: 425px;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
   text-align: center;
   padding: 2rem 1rem;
 }
 .breakfast_open_section .card_wrapper .icon_img {
   position: relative;
 }
+<<<<<<< HEAD
 .breakfast_open_section .card_wrapper .icon_img .icons {
   width: 50px;
   height: 50px;
@@ -317,11 +349,32 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   z-index: 2;
 }
 .breakfast_open_section .card_wrapper .icon_img .icons img {
+=======
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  z-index: 2;
+  border: 1px solid var(--theme-text-alt-gray-color);
+  padding: 0.8rem;
+  border-radius: 100%;
+}
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img::after {
+  content: "";
+}
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img img {
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
   width: 100%;
   position: relative;
   z-index: 2;
 }
+<<<<<<< HEAD
 .breakfast_open_section .card_wrapper .icon_img .line::after {
+=======
+.breakfast_open_section .card_wrapper .icon_img .icon_img_img .line::after {
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
   content: "";
   position: absolute;
   background-color: var(--theme-border-color);
@@ -351,4 +404,114 @@ section.tasty_pancakes_section .tasty_pancakes_wrapper .wrapper_content .tasty_s
   border: 1px solid var(--theme-border-color);
   padding: 10px 75px;
   border-radius: 0;
+<<<<<<< HEAD
+=======
+}
+
+.Jibarito_sandwich_section {
+  background-color: var(--light--alt-gray-color);
+}
+.Jibarito_sandwich_section .before_img {
+  position: relative;
+}
+.Jibarito_sandwich_section .before_img::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/Vektor-Smartobjekt5.gif");
+  width: 700px;
+  min-height: 335px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 17%;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper .best_wrapper_img {
+  width: 100px;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper .best_wrapper_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Jibarito_sandwich_section .best_sandwich_wrapper_container .best_wrapper .section_heading h1 {
+  font-size: 1.875rem;
+  color: var(--theme-subheading-color);
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container {
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.54);
+  position: relative;
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .fullsanswitch_image .full_image {
+  background-image: url("../../assets/images/Ebene-111.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .fullsanswitch_image .full_image .time_wrapper .time_header {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+  margin-left: auto;
+  opacity: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Jibarito_sandwich_section .Jibarito_sandwich_wrapper_container .recipe_btn {
+  display: inline-block;
+  position: absolute;
+  left: -5%;
+  bottom: -5%;
+  transform: translate(-5%, -5%);
+}
+
+footer {
+  background-color: var(--light--alt-gray-color);
+}
+footer nav.navbar .footer-logo {
+  font-family: var(--theme-scriptina-font);
+  font-size: 1.875rem;
+  background-color: var(--light--alt-gray-color);
+  text-transform: capitalize;
+  position: relative;
+  line-height: 1;
+}
+footer nav.navbar .footer-logo::after {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  width: calc(100% + 4rem);
+  top: -2rem;
+  height: calc(100% + 4rem);
+  background-color: var(--light--alt-gray-color);
+}
+footer nav.navbar .footer-logo span.logo_text {
+  position: relative;
+  z-index: 2;
+}
+footer nav.navbar li a {
+  font-family: var(--heading-font-one);
+  text-transform: uppercase;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
 }/*# sourceMappingURL=style.css.map */

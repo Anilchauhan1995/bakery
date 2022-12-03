@@ -369,18 +369,59 @@ section.tasty_pancakes_section {
                 font-size: 3.75rem;
             }
             .price{
+<<<<<<< HEAD
                 font-size: 3.75rem;
                 color: var(--theme-subheading--alt-color);
+=======
+                position: relative;
+                p{
+                font-size: 2.25rem;
+                color: var(--theme-subheading--alt-color);
+                }
+            }
+            .before_after_img{
+                position: relative;
+                display: inline-flex;
+              
+                span{
+                    display: block;
+                    width: 3rem;
+                    height: 3rem;
+                    margin: 0 auto;
+                    position: relative;
+                    
+                    &.left_img ,&.right_img{
+                        img{
+                            width: 100%;
+                            filter: invert(1);
+                        }
+                    }
+                    &.left_img{
+                        img{
+                            transform: rotateY(180deg);
+                            margin-left: 0.5rem;
+                            
+                        }
+                    }
+                }
+
+                
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
             }
         }
     }
     .card_wrapper {
         background-color:var(--light--alt-gray-color);
+<<<<<<< HEAD
         max-width: 370px;
+=======
+        max-width: 425px;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
         text-align: center;
         padding: 2rem 1rem;
         .icon_img{
             position: relative;
+<<<<<<< HEAD
                 .icons{
                 width: 50px;
                 height: 50px;
@@ -406,6 +447,39 @@ section.tasty_pancakes_section {
                     top: 50%;
                     transform: translateY(-50%);
                     z-index: 1;
+=======
+            .icon_img_img{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                z-index: 2;
+                border: 1px solid var( --theme-text-alt-gray-color);
+                padding: 0.8rem;
+                border-radius: 100%;
+                &::after{
+                    content: "";
+                }
+                    img{
+                        width: 100%;
+                        position: relative;
+                        z-index: 2;
+                    }
+            
+                .line{
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        background-color: var(--theme-border-color);
+                        left: 0;
+                        right: 0;
+                        height: 1px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        z-index: 1;
+                    }
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
                 }
             }
         }
@@ -442,4 +516,137 @@ section.tasty_pancakes_section {
 }
 
 
+<<<<<<< HEAD
 // Breakfast_open_section End
+=======
+// Breakfast_open_section End
+
+
+// Jibarito_sandwich_section Start
+.Jibarito_sandwich_section{
+    background-color: var( --light--alt-gray-color);
+    .before_img{
+        position: relative;
+
+        &::after{
+            content:"";
+            position: absolute;
+            background-image: url("../../assets/images/Vektor-Smartobjekt5.gif");
+            width: 700px;
+            min-height: 335px;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 17%;
+        }
+
+    }
+    .best_sandwich_wrapper_container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        .best_wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 1rem;
+        
+            .best_wrapper_img{
+                width: 100px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100%;
+                    aspect-ratio: 1/1;
+                    object-fit: cover;
+                }
+            }
+            .section_heading{
+                h1{
+                    font-size: 1.875rem;
+                    color: var(--theme-subheading-color);
+                }
+            }
+        }
+    }
+    .Jibarito_sandwich_wrapper_container{ 
+        padding: .5rem;
+        background-color: #fff;
+        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.54);
+        position: relative;
+        .fullsanswitch_image{
+            .full_image{
+                background-image: url("../../assets/images/Ebene-111.jpg");
+                background-position: center;
+                background-size: cover;
+                .time_wrapper{
+                    .time_header {
+                        width: 200px;
+                        height: 200px;
+                        background-color: #fff;
+                        text-align: center;
+                        margin-left: auto;
+                        opacity: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        .recipe_btn{
+            display: inline-block;
+            position: absolute;
+            left: -5%;
+            bottom: -5%;
+            transform: translate(-5%,-5%);
+        }
+    }
+}
+// Jibarito_sandwich_section End
+
+
+// footer section css Start
+footer{
+    background-color: var(--light--alt-gray-color);
+
+    nav.navbar{
+        .footer-logo{
+            font-family: var(--theme-scriptina-font);
+            font-size: 1.875rem;
+            background-color: var(--light--alt-gray-color);
+            text-transform: capitalize;
+            position: relative;
+            line-height: 1;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                left: -2rem;
+                width: calc(100% + 4rem);
+                top: -2rem;
+                height: calc(100% + 4rem);
+                background-color: var(--light--alt-gray-color);
+                
+            }
+            span.logo_text {
+                position: relative;
+                z-index: 2;
+            }
+        }
+        li{
+            a{
+                font-family: var(--heading-font-one);
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+// footer section css End
+
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3

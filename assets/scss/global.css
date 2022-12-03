@@ -11,6 +11,10 @@
   --theme-subheading-color:#a47d5e;
   --theme-subheading--alt-color:#dfc691;
   --theme-text-gray-color:#979285;
+<<<<<<< HEAD
+=======
+  --theme-text-alt-gray-color:#c2beba;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
   --theme-icon-color:#d8bba3;
   --theme-border-color:#9e9c93;
   --theme-scriptina-font:"scriptina";
@@ -35,15 +39,30 @@
   background-color: var(--theme-color);
 }
 
+<<<<<<< HEAD
+=======
+.text_alt_gray_color {
+  color: var(--theme-text-alt-gray-color);
+}
+
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
 body {
   margin: 0;
   padding: 0;
   font-family: var(--theme-Proxima-font);
   font-size: 14px;
+<<<<<<< HEAD
 }
 
 .section_heading h1 {
   font-size: 2.5625rem;
+=======
+  color: var(--theme-text-color);
+}
+
+.section_heading h1 {
+  font-size: 3rem;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
   font-family: var(--heading-font-one);
   font-weight: bold;
   color: var(--theme-text-color);
@@ -55,8 +74,29 @@ h2, h3, h4, h5, h5 {
   color: var(--theme-text-color);
 }
 
+<<<<<<< HEAD
 .fz-18 {
   font-size: 18px !important;
+=======
+h1 {
+  font-family: var(--heading-font-one);
+}
+
+.fz-16 {
+  font-size: 1rem !important;
+}
+
+.fz-18 {
+  font-size: 1.125rem !important;
+}
+
+.fz-30 {
+  font-size: 1.875rem;
+}
+
+.fz-60 {
+  font-size: 3.75rem;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
 }
 
 .section_header_content p {
@@ -66,6 +106,12 @@ h2, h3, h4, h5, h5 {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
+<<<<<<< HEAD
+=======
+.section_header_content .text_alt_gray_color {
+  color: var(--theme-text-alt-gray-color);
+}
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
 
 .section_content p {
   font-family: var(--theme-Proxima-font);
@@ -140,4 +186,23 @@ img {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.2rem;
+<<<<<<< HEAD
+=======
+}
+
+.full_recipe_btn {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-family: var(--heading-font-one);
+  color: var(--theme-subheading--alt-color);
+  font-weight: bold;
+  border: 1px dashed;
+  background-color: var(--white-color);
+  padding: 1rem 2.0245rem;
+}
+
+.border-top,
+.border-bottom {
+  border-color: var(--theme-text-alt-gray-color) !important;
+>>>>>>> 10c87a1287e615e0af1bfd1b78412ac23435e2a3
 }/*# sourceMappingURL=global.css.map */
